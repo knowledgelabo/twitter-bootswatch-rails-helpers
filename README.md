@@ -1,6 +1,6 @@
 # Bootswatch Rails 3.0.0 Helpers gem
 
-[![Build Status](https://www.travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-helpers.png?branch=master)](https://www.travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-helpers)
+[![Build Status](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-helpers.png?branch=master)](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-helpers)
 
   - Requires [twitter-bootswatch-rails](https://github.com/scottvrosenthal/twitter-bootswatch-rails/)
   - Provides rails view helpers for [Twitter Bootstrap](http://getbootstrap.com/) alerts and breadcrumbs
