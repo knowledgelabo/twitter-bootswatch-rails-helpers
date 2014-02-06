@@ -2,7 +2,6 @@ require "bundler/gem_tasks"
 
 desc "Bundle the gem"
 task :bundle do
-  sh('bundle install')
 
   sh 'gem build *.gemspec'
   sh 'gem install *.gem'
