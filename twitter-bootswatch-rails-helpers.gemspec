@@ -11,8 +11,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Scott V. Rosenthal"]
   gem.email         = ["sr7575@gmail.com"]
   gem.homepage      = 'https://github.com/scottvrosenthal/twitter-bootswatch-rails-helpers'
-  gem.summary       = %q{Bootswatch Rails Helpers gem for use with the twitter-bootswatch-rails gem}
-  gem.description   = %q{twitter-bootswatch-rails-helpers gem provides common view helpers for use with the twitter-bootswatch-rails gem}
+  gem.summary       = %q{Bootswatch Rails Helpers gem for use with the twitter-bootswatch-rails & less-rails gems}
+  gem.description   = %q{twitter-bootswatch-rails-helpers gem provides common view helpers for use with the twitter-bootswatch-rails & less-rails gems}
   gem.license       = 'MIT'
   gem.licenses      = ['MIT', 'GPL-2']
 
@@ -20,6 +20,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_dependency     'twitter-bootswatch-rails', '~> 3.1.0'
+  gem.add_dependency     'twitter-bootswatch-rails', '~> 3.2.0'
 
 end
