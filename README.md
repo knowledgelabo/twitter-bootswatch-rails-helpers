@@ -1,4 +1,4 @@
-# Bootswatch Rails 3.0.0 Helpers gem
+# Bootswatch Rails 3.3.2 Helpers gem
 
 [![Build Status](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-helpers.png?branch=master)](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-helpers)
 
@@ -9,7 +9,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'twitter-bootswatch-rails', '~> 3.0.0'
+    gem 'twitter-bootswatch-rails', '~> 3.3.2'
 
     gem 'twitter-bootswatch-rails-helpers'
 

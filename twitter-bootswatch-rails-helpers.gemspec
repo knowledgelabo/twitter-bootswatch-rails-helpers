@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Twitter::Bootswatch::Rails::Helpers::VERSION
   gem.required_ruby_version = '>= 1.9.3'
   gem.required_rubygems_version = '>= 1.8.11'
-  gem.authors       = ["Scott V. Rosenthal"]
-  gem.email         = ["sr7575@gmail.com"]
+  gem.authors       = ['scottvrosenthal']
+  gem.email         = ['sr7575@gmail.com']
   gem.homepage      = 'https://github.com/scottvrosenthal/twitter-bootswatch-rails-helpers'
   gem.summary       = %q{Bootswatch Rails Helpers gem for use with the twitter-bootswatch-rails gem}
   gem.description   = %q{twitter-bootswatch-rails-helpers gem provides common view helpers for use with the twitter-bootswatch-rails gem}
@@ -20,6 +20,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_dependency     'twitter-bootswatch-rails', '~> 3.0.0'
+  gem.add_dependency     'twitter-bootswatch-rails', '~> 3.3', '>= 3.3.2'
 
 end
