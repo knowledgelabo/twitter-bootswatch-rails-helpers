@@ -46,10 +46,11 @@ module Twitter
       end
 
       def bootswatch_alert_types(alert_type)
+        #Rails 4.1 started using Strings instead of Symbol.
         case alert_type
-          when :info then 'alert-info'
-          when :notice, :success then 'alert-success'
-          when :alert, :error then 'alert-danger'
+          when :info, 'info' then 'alert-info'
+          when :notice, :success, 'notice', 'success' then 'alert-success'
+          when :alert, :error, 'alert', 'error' then 'alert-danger'
           else 'alert-warning' # warning
         end
       end

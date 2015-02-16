@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Bootswatch Rails 3.3.2 Helpers gem
+=======
+# Bootswatch Rails 3.2.0 Helpers gem
+>>>>>>> 4da4344c75742369ebdd98810a3678d71dbfaaf1
 
 [![Build Status](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-helpers.png?branch=master)](https://travis-ci.org/scottvrosenthal/twitter-bootswatch-rails-helpers)
 
